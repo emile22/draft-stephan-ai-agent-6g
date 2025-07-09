@@ -1,47 +1,24 @@
 ---
-###
-# Internet-Draft Markdown Template
-#
-# Rename this file from draft-todo-yourname-protocol.md to get started.
-# Draft name format is "draft-<yourname>-<workgroup>-<name>.md".
-#
-# For initial setup, you only need to edit the first block of fields.
-# Only "title" needs to be changed; delete "abbrev" if your title is short.
-# Any other content can be edited, but be careful not to introduce errors.
-# Some fields will be set automatically during setup if they are unchanged.
-#
-# Don't include "-00" or "-latest" in the filename.
-# Labels in the form draft-<yourname>-<workgroup>-<name>-latest are used by
-# the tools to refer to the current version; see "docname" for example.
-#
-# This template uses kramdown-rfc: https://github.com/cabo/kramdown-rfc
-# You can replace the entire file if you prefer a different format.
-# Change the file extension to match the format (.xml for XML, etc...)
-#
-###
 title: "AI Agent protocols for 6G systems"
 abbrev: "Agent protocols for 6G"
 category: info
-
 docname: draft-stephan-ai-agent-6g-latest
+stand_alone: true
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
-date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: none
+workgroup: none
 keyword:
  - next generation
- - unicorn
- - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: none
+  type: none
+  mail: none
+  arch: none
+  github: "emile22/draft-stephan-ai-agent-6g"
+  latest: "https://emile22.github.io/draft-stephan-ai-agent-6g/edit/main/draft-stephan-ai-agent-6g.html"
+
 
 author:
  -
@@ -68,8 +45,6 @@ author:
 normative:
 
 informative:
-
-...
 
 --- abstract
 
@@ -262,18 +237,9 @@ This memo includes no request to IANA.
 
 This document should not affect the security of the Internet.
 
-## IANA Considerations
-
-This memo includes no request to IANA.
-
-## Security Considerations
-
-This document should not affect the security of the Internet.
-
 ## References
 - [TR22.870] 3GPP TR 22.870: Study on 6G Use Cases and Service Requirements; Stage 1 (Release 20). [Online](https://www.3gpp.org/ftp/Specs/archive/22_series/22.870)
 - [M.2160] Recommendation ITU-R M.2160-0: Framework and overall objectives of the future development of IMT for 2030 and beyond. [Online](https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-I!!PDF-E.pdf)
-
 
 --- back
 

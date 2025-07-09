@@ -229,15 +229,21 @@ In summary, the integration of AI in 6G systems represents a significant advance
 
 If a multi-AI agent-based system is formally adopted by 3GPP in the scope of 6G, standard solutions will be required to support secure and reliable communication between agents and between agents and external tools. These solutions will be used inside the 3GPP system but also with 3rd-party platforms. It is then required to have solutions developed by standard organizations that would be widely adopted by the AI development community. It is foreseen that IETF could be the right place to develop and maintain such standard protocols. If such standardization work is eventually endorsed by IETF, a close coordination between IETF and 3GPP will be essential to ensure that any AI agent communication protocols specified by IETF will support specific functional and service requirements defined by 3GPP in the 6G context. And it is also expected that this work will be completed in a timely manner to cope with the challenging workplan defined by 3GPP for the development of a 6G system in the ITU-R IMT 2030 framework .
 
-## IANA Considerations
-
-This memo includes no request to IANA.
-
-## Security Considerations
+# Security Considerations
 
 This document should not affect the security of the Internet.
 
-## References
+# IANA Considerations
+
+This memo includes no request to IANA.
+
+# Acknowledgments
+
+# References
+
+## Normative References
+
+## Informative References
 
    [TR22.870] 3GPP TR 22.870: Study on 6G Use Cases and Service Requirements; Stage 1 (Release 20). 
    <https://www.3gpp.org/ftp/Specs/archive/22_series/22.870>
@@ -246,8 +252,3 @@ This document should not affect the security of the Internet.
    <https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-I!!PDF-E.pdf>
 
 --- back
-
-# Acknowledgments
-{:numbered="false"}
-
-TODO acknowledge.

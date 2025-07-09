@@ -238,8 +238,12 @@ This memo includes no request to IANA.
 This document should not affect the security of the Internet.
 
 ## References
-- [TR22.870] 3GPP TR 22.870: Study on 6G Use Cases and Service Requirements; Stage 1 (Release 20). [Online](https://www.3gpp.org/ftp/Specs/archive/22_series/22.870)
-- [M.2160] Recommendation ITU-R M.2160-0: Framework and overall objectives of the future development of IMT for 2030 and beyond. [Online](https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-I!!PDF-E.pdf)
+
+   [TR22.870] 3GPP TR 22.870: Study on 6G Use Cases and Service Requirements; Stage 1 (Release 20). 
+   <https://www.3gpp.org/ftp/Specs/archive/22_series/22.870>
+
+   [M.2160] Recommendation ITU-R M.2160-0: Framework and overall objectives of the future development of IMT for 2030 and beyond. 
+   <https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-I!!PDF-E.pdf>
 
 --- back
 

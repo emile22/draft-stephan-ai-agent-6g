@@ -557,11 +557,17 @@ Authors' Addresses
 
    Emile Stephan
    Orange
+   2, avenue Pierre Marzin
+   22300 Lannion
+   France
    Email: emile.stephan@orange.com
 
 
    Roland Schott
    Deutsche Telekom
+   Deutsche-Telekom-Allee 9
+   64295 Darmstadt
+   Germany
    Email: Roland.Schott@telekom.de
 
 

@@ -28,6 +28,11 @@ Abstract
    and extrapolates possible requirements related to agent communication
    protocols.
 
+   Discussion Venues
+
+   Source of this draft and an issue tracker can be found at
+   https://github.com/emile22/draft-stephan-ai-agent-6g
+
 About This Document
 
    This note is to be removed before publishing as an RFC.

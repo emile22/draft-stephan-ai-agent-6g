@@ -33,7 +33,7 @@ author:
  -
     fullname: Roland Schott
     org: Deutsche Telekom
-	   street: Deutsche-Telekom-Allee 9
+    street: Deutsche-Telekom-Allee 9
     code: 64295
     city: Darmstadt
     country: Germany

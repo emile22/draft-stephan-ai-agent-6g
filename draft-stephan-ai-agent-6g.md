@@ -25,10 +25,18 @@ author:
  -
     fullname: Emile Stephan
     org: Orange
+    street: 2, avenue Pierre Marzin
+    code: 22300
+    city: Lannion
+    country: France
     email: emile.stephan@orange.com
  -
     fullname: Roland Schott
     org: Deutsche Telekom
+	   street: Deutsche-Telekom-Allee 9
+    code: 64295
+    city: Darmstadt
+    country: Germany
     email: Roland.Schott@telekom.de
  -
     fullname: Diego Lopez

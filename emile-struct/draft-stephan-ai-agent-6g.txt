@@ -577,4 +577,7 @@ Authors' Addresses
 
    Lionel Morand
    Huawei
+   18 Quai du Point du Jour
+   92100 Boulogne-Billancourt
+   France
    Email: lionel.morand@huawei.com

@@ -41,6 +41,10 @@ author:
  -
     fullname: Lionel Morand
     org: Huawei
+    street: 18 Quai du Point du Jour
+    city: Boulogne-Billancourt
+    code: 92100
+    country France
     email: lionel.morand@huawei.com
 
 normative:

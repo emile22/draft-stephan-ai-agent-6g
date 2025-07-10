@@ -44,7 +44,7 @@ author:
     street: 18 Quai du Point du Jour
     city: Boulogne-Billancourt
     code: 92100
-    country France
+    country: France
     email: lionel.morand@huawei.com
 
 normative:

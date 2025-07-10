@@ -6,7 +6,7 @@ docname: draft-stephan-ai-agent-6g-latest
 stand_alone: true
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 consensus: true
-v: 3
+
 area: none
 workgroup: none
 keyword:
@@ -19,27 +19,28 @@ venue:
   github: "emile22/draft-stephan-ai-agent-6g"
   latest: "https://emile22.github.io/draft-stephan-ai-agent-6g/edit/main/draft-stephan-ai-agent-6g.html"
 
+v: 3
 
 author:
  -
     fullname: Emile Stephan
-    organization: Orange
+    org: Orange
     email: emile.stephan@orange.com
  -
     fullname: Roland Schott
-    organization: Deutsche Telekom
+    org: Deutsche Telekom
     email: Roland.Schott@telekom.de
  -
     fullname: Diego Lopez
-    organization: Telefonica
+    org: Telefonica
     email: diego.r.lopez@telefonica.com
  -
     fullname: Xiaodong Duan
-    organization: China Mobile
+    org: China Mobile
     email: duanxiaodong@chinamobile.com
  -
     fullname: Lionel Morand
-    organization: Huawei
+    org: Huawei
     email: lionel.morand@huawei.com
 
 normative:
@@ -49,6 +50,10 @@ informative:
 --- abstract
 
 Communication between AI agents and between agent and tools is expected to be pivotal in 6G systems. The 3GPP TR 22.870 outlines various use cases and potential service requirements for AI agent communication within 6G systems. This document provides examples of use cases and service requirements contained in the 3GPP TR 22.870 and extrapolates possible requirements related to agent communication protocols.
+
+Discussion Venues
+
+Source of this draft and an issue tracker can be found at https://github.com/emile22/draft-stephan-ai-agent-6g
 
 --- middle
 

@@ -52,7 +52,7 @@ Communication between AI agents and between agent and tools is expected to be pi
 
 --- middle
 
-## Introduction
+# Introduction
 
 Since 1998, the 3rd Generation Partnership Project (3GPP) has been fundamental in the development of standards for various generations of mobile networks, including 3G, 4G (LTE), and 5G.
 
@@ -64,9 +64,9 @@ Whereas these existing standards are still being enhanced to meet the growing de
 
 A study on service requirements and use cases for 6G is documented in the 3GPP Technical Report (TR) 22.870 . While at an early stage and the document being still a work in progress, the current content of the report already provides useful insights on the potential foundation pillars of the new 6G system. One of them being the Artificial Intelligence (AI) and how 6G could leverage AI and machine learning to enhance mobile network capabilities, service offering and user experience.
 
-## AI Agent related use cases in the context of 6G
+# AI Agent related use cases in the context of 6G
 
-### General
+## General
 
 The recommendation ITU-R Recommendation M.2160-0  provides a comprehensive framework for the development of 6G technologies, focusing on the capabilities and objectives that these technologies should achieve around 2030 and beyond. In this document, the integration of AI in telecommunications is poised to be a cornerstone for the development of 6G systems. AI is considered as a foundational element, supporting both the network infrastructure and devices in delivering 3GPP services, often referred to as "AI for 6G system". Additionally, mobile network capabilities are aimed to be enhanced and optimized for supporting AI applications, termed "6G system for AI".
 
@@ -74,152 +74,152 @@ AI is not a novel concept within 3GPP, which has been actively engaged in standa
 
 Beyond traditional AI/ML capabilities, 3GPP is exploring the integration of AI agents in 6G systems. According to 3GPP TR 22.870 , an AI agent is defined as follows:
 
+AI Agent: an automated intelligent entity capable of e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (autonomously or in collaboration with other AI Agents) to achieve a specific goal.
+
 AI agents are anticipated to enhance network efficiency by dynamically optimizing resources, predicting network conditions, and ensuring seamless communication between services. By incorporating large language models (LLMs), AI agents could interpret complex requests, convert them into actionable insights, and orchestrate advanced 3GPP services such as immersive communication, sensing, and computing services. It is also expected that these agents would be able to communicate, coordinate, and cooperate with other agents to tackle tasks that a single agent would struggle with.
 
 In this context, communication between AI agents is expected to be pivotal in the 6G system, by enabling advanced network functionalities to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services. The 3GPP TR 22.870  outlines various use cases and potential service requirements for AI agent communication protocols within the 6G framework. Some of these use cases are provided in the following sections. They are only provided for information and are subject to change till the completion of the study.
 
-**Al Agent:**: an automated intelligent entity capable of e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (autonomously or in collaboration with other Al Agents) to achieve a specific goal.
-
-### Network Optimization and Management
+## Network Optimization and Management
 
 - AI-Driven Network Slicing: AI agents in the 6G system should be able to communicate with 3rd-party AI agent to dynamically manage and optimize network slices, ensuring efficient resource allocation and improved performance for different services and applications.
 - Predictive Maintenance: AI agents deployed in the 6G systems should be able to share information to predict potential network failures and perform preventive maintenance, reducing downtime and enhancing network reliability.
 
-### Immersive Communications
+## Immersive Communications
 
 - Traffic Management: AI agents should be able to communicate with other agents and tools to analyze and predict traffic patterns, optimizing bandwidth allocation and ensuring high-quality service for users, especially in densely populated areas.
 - Quality of Experience (QoE) Optimization: AI agents should be able to collaborate to monitor and adjust network parameters in real-time, enhancing the user experience for high-bandwidth applications like video streaming and virtual reality.
 
-### Hyper-Reliable Low-Latency Communications
+## Hyper-Reliable Low-Latency Communications
 
 - Real-Time Decision Making: AI agents should be able to facilitate real-time decision-making processes in critical applications such as autonomous driving, industrial automation, and remote surgery, where ultra-low latency and high reliability are crucial.
 - Fault Detection and Recovery: AI agents should be able to quickly detect and recover from faults, maintaining the high reliability required for mission-critical applications.
 
-### Massive IoT Device Communications
+## Massive IoT Device Communications
 
 - Device Management: AI agents distributed in the network (terminal, edge, core, etc.) should be able to collaborate to manage a large number of IoT devices, optimizing their connectivity and power consumption to extend battery life and improve network efficiency.
 - Data Analytics: AI agents should be able to collaborate to share and analyze data from IoT devices to provide insights and support decision-making processes in various applications, such as smart cities, agriculture, and healthcare.
 
-### Security and Privacy
+## Security and Privacy
 
 - Anomaly Detection: AI agents should be able to exchange information about anomalous behavior detection and potential security threats in real-time, enhancing the overall security of the network.
 - Privacy Preservation: AI agents should be able to implement and share privacy-preserving techniques to protect user data, maintain sensitive data within individual networks, and ensure compliance with regulatory requirements.
 
-### Autonomous Systems
+## Autonomous Systems
 
 - Autonomous Vehicles: Embedded AI agents should be able to communicate inside the same vehicle, between vehicles, between vehicles and the network for decision making based on environment perception, trajectory planning, and complex real-time control.
 - Industrial Automation: AI agents should be able to communicate to optimize and control industrial processes, improving efficiency and reducing operational costs.
 
-### AI Agent Collaboration
+## AI Agent Collaboration
 
 - AI agent communication groups: Groups of User AI agents (AI assistant, drone, intelligent vehicle, home robot, etc.) could be dynamically created to allow the communication between AI agents to complete complex tasks requested by a user and/or between multiple user AI agent groups, owned by different users, across diverse locations ranging from local wireless networks to the wide area networks.
 - Intelligent Communication Assistants: Operators can advantageously provide Intelligent Communication Assistant services to their subscribers. Intelligent Communication Assistant could understand user intention by collecting multi-modal data of the user and execute the user instructions by invoking other AI assistants and services provided by the 3rd party service provider.
 
-## Potential agent communications related requirements
+# Potential agent communications related requirements
 
-### General
+## General
 
 Agent communication in the context of AI and 6G networks involves several common requirements to ensure effective, efficient, and secure interactions between users and agents, between agents and between agents and tools. Here is a list of potential key requirements derived from the illustrative use cases provided in the previous sections. They are not yet formally approved by 3GPP and only provided for information/discussion.
 
-### Interoperability
+## Interoperability
 
-#### Standardized Protocols
+### Standardized Protocols
 
 Agents should be able to use standardized communication protocols to ensure they can interact seamlessly across different platforms and systems. Agents should also support a standard protocol to interact with external data sources (e.g. user data repository) and AI-powered tools (e.g. location services) to complete their tasks.
 
-#### Multimodal Data Formats
+### Multimodal Data Formats
 
 Agents should be able to support multimodal data formats (e.g., text, file, real-time audio stream, video streaming) to facilitate easy data exchange and interpretation.
 
-#### Agent Identity Management
+### Agent Identity Management
 
 To allow the communication between users and agents as well as between agents and/or tools across platforms/domains, the system should support secure mechanisms for identification, verification and governance of agents/tools identities.
 
-### Discovery Mechanisms
+## Discovery Mechanisms
 
 Robust and efficient AI agent and tool discovery mechanisms to dynamically identify and locate AI agents/tools across different platforms and organizations. It should be possible to combine multiple discovery mechanisms depending on specific requirements and constraints of the application domain, e.g. broadcasting/multicasting-based mechanisms for intra-domain discovery and use of centralized directories for cross-domain discovery.
 
-### Task Management
+## Task Management
 
 AI agent communication should provide a robust and efficient task management to enable seamless coordination and collaboration among agents. Task management includes task decomposition (complex tasks broken down into smaller sub-tasks that can be executed by individual agents or groups of agents), task assignment (based on agent capabilities, availability, workload), task scheduling, task coordination among agents and task monitoring/tracking.
 
-### Context Awareness
+## Context Awareness
 
-#### Contextual Understanding
+### Contextual Understanding
 
 Agents should be aware of the context in which they operate, including the state of other agents and the environment, to make informed decisions.
 
-#### Adaptive Communication
+### Adaptive Communication
 
 Agents should be able to adapt the communication based on the context and current needs of the system.
 
-### Autonomy
+## Autonomy
 
-#### Decision Making
+### Decision Making
 
 Agents should be capable of making autonomous decisions based on data analysis and reinforcement learning but also making collaborative decisions based on dynamic interaction between agents.
 
-#### Self-Management
+### Self-Management
 
 Capabilities for self-management, including self-configuration, self-optimization, and self-healing based on information received from other agents.
 
-### Security
+## Security
 
-#### Authentication and Authorization
+### Authentication and Authorization
 
 The agent communications should support authentication mechanisms for agent identity verification and authorization mechanisms to grant or deny access to specific resources based on the authenticated agent's permissions or roles. These mechanisms should be applicable for intra-domain and cross-domain scenarios.
 
-#### Data Protection
+### Data Protection
 
 The agent communications should support encryption mechanism to protect sensitive data from unauthorized access, ensuring privacy and confidentiality.
 
-#### User Consent
+### User Consent
 
 The agent communication should provide mechanism to collect the user consent for the secure exchange of personal sensitive data with an AI agent (e.g. AI assistant) inside the network or 3rd-party application domain and between AI agents.
 
-### Low Latency Communication
+## Low Latency Communication
 
 The agent communication should enable minimal delay data transmission, especially critical for real-time applications like industrial automation, robotics, or real-time gaming, to reduce lag and improve service experience.
 
-### Reliability
+## Reliability
 
-#### Fault Tolerance
+### Fault Tolerance
 
 The agent communication should support mechanisms to detect, mitigate and recover from communication anomalies that would undermine collective decision making between agents. These anomalies include message storms, communication deadlocks, protocol violations, or content inconsistencies.
 
-#### Load Balancing
+### Load Balancing
 
 Agent communication protocols should be able support load-balancing among agents to prevent any single agent from becoming a bottleneck and maintain continuous operation.
 
-#### Redundancy
+### Redundancy
 
 Redundancy mechanisms (e.g. active/passive redundancy, data redundancy, georedundancy) should be implemented to ensure high-reliability, resilience and service continuity even if one or several agents fail.
 
-### Flexibility
+## Flexibility
 
-#### Scalability
+### Scalability
 
 Agent communication protocols should be designed to accommodate increasing network sizes and data volumes without significant performance degradation, even during peak load events.
 
-#### Adaptability
+### Adaptability
 
 Agent communication protocols should be able to adjust to multiple contexts (including heterogeneous agent capabilities, service environment, system requirements), multiple ways of transmitting information, including verbal, non-verbal, written, and visual forms, used individually or in combination, as well as the location of the AI agents (in the user terminal, in the network, in the 3rd party service environment).
 
-#### Extensibility
+### Extensibility
 
 For onward compatibility, agent communication protocols should be able to evolve and adapt to new technologies and service requirements without requiring major overhauls.
 
-### Energy Efficiency
+## Energy Efficiency
 
-#### Optimized Communication
+### Optimized Communication
 
 Agent communication should support mechanisms to optimize communication between embedded AI agents to reduce energy consumption, especially important for battery-powered devices (e.g. IoT devices).
 
-#### Power Management
+### Power Management
 
 Agent communication should support efficient power management strategies to extend the operational life of devices embedding AI agents.
 
-## Conclusions
+# Conclusions
 
 AI agents are envisioned to enhance network efficiency by dynamically optimizing resources, predicting network conditions, and facilitating seamless communication between services. The incorporation of large language models (LLMs) will enable AI agents to understand complex requests and orchestrate advanced services, further enhancing the capabilities of 6G networks.
 

@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-10T00:47:06.518999+00:00",
+  "timestamp": "2025-07-13T00:54:17.560030+00:00",
   "repo": "emile22/draft-stephan-ai-agent-6g",
   "labels": [
     {
@@ -50,5 +50,90 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOPJsiYM6eTy6V",
+      "title": "Update draft-stephan-ai-agent-6g.md fix struc",
+      "url": "https://github.com/emile22/draft-stephan-ai-agent-6g/pull/1",
+      "state": "MERGED",
+      "author": "emile22",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "fix struct and typo",
+      "createdAt": "2025-07-10T13:33:47Z",
+      "updatedAt": "2025-07-10T13:34:25Z",
+      "baseRepository": "emile22/draft-stephan-ai-agent-6g",
+      "baseRefName": "main",
+      "baseRefOid": "1d60ebc5b2ae55f64ef0a0028705e23e80234269",
+      "headRepository": "emile22/draft-stephan-ai-agent-6g",
+      "headRefName": "emile-struct",
+      "headRefOid": "06eddc879b40193288c69eee8a611279ec210d23",
+      "closedAt": "2025-07-10T13:34:25Z",
+      "mergedAt": "2025-07-10T13:34:25Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "49b4a46580b4dffbcfcf40db4fdd2b0e070f3a7c"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOPJsiYM6eT-bg",
+      "title": "Update draft-stephan-ai-agent-6g.md review auth struct",
+      "url": "https://github.com/emile22/draft-stephan-ai-agent-6g/pull/2",
+      "state": "MERGED",
+      "author": "emile22",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "review auth struct",
+      "createdAt": "2025-07-10T13:49:35Z",
+      "updatedAt": "2025-07-10T13:50:41Z",
+      "baseRepository": "emile22/draft-stephan-ai-agent-6g",
+      "baseRefName": "main",
+      "baseRefOid": "49b4a46580b4dffbcfcf40db4fdd2b0e070f3a7c",
+      "headRepository": "emile22/draft-stephan-ai-agent-6g",
+      "headRefName": "emile-struct",
+      "headRefOid": "96310781c5fb5c6a50016886216a2cd25c64bca1",
+      "closedAt": "2025-07-10T13:50:41Z",
+      "mergedAt": "2025-07-10T13:50:41Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "5a2a941dcc48e168aea9c71a37f9bfb33e158047"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOPJsiYM6eUQgz",
+      "title": "Update draft-stephan-ai-agent-6g.md auth section",
+      "url": "https://github.com/emile22/draft-stephan-ai-agent-6g/pull/3",
+      "state": "MERGED",
+      "author": "emile22",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "fix auth section",
+      "createdAt": "2025-07-10T14:11:50Z",
+      "updatedAt": "2025-07-10T14:12:03Z",
+      "baseRepository": "emile22/draft-stephan-ai-agent-6g",
+      "baseRefName": "main",
+      "baseRefOid": "5a2a941dcc48e168aea9c71a37f9bfb33e158047",
+      "headRepository": "emile22/draft-stephan-ai-agent-6g",
+      "headRefName": "emile-struct",
+      "headRefOid": "a58c7969fbd86671134a3d17d332e0c36c170180",
+      "closedAt": "2025-07-10T14:12:03Z",
+      "mergedAt": "2025-07-10T14:12:03Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "ed3e53dd1b95342f383fe512fd1cb1c57929c9bf"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }

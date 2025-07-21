@@ -5,14 +5,14 @@
 none                                                          E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                 R. Schott
-Expires: 11 January 2026                                Deutsche Telekom
+Expires: 22 January 2026                                Deutsche Telekom
                                                                 D. Lopez
                                                               Telefonica
                                                                  X. Duan
                                                             China Mobile
                                                                L. Morand
                                                                   Huawei
-                                                            10 July 2025
+                                                            21 July 2025
 
 
                    AI Agent protocols for 6G systems
@@ -62,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 January 2026.
+   This Internet-Draft will expire on 22 January 2026.
 
 Copyright Notice
 

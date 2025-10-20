@@ -5,14 +5,14 @@
 none                                                          E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                 R. Schott
-Expires: 22 January 2026                                Deutsche Telekom
+Expires: 23 April 2026                                  Deutsche Telekom
                                                                 D. Lopez
                                                               Telefonica
                                                                  X. Duan
                                                             China Mobile
                                                                L. Morand
                                                                   Huawei
-                                                            21 July 2025
+                                                         20 October 2025
 
 
                    AI Agent protocols for 6G systems
@@ -62,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 January 2026.
+   This Internet-Draft will expire on 23 April 2026.
 
 Copyright Notice
 
@@ -357,6 +357,26 @@ Table of Contents
    constraints of the application domain, e.g. broadcasting/
    multicasting-based mechanisms for intra-domain discovery and use of
    centralized directories for cross-domain discovery.
+
+   Currently Service-Based Architecture (SBA) defines discovery as the
+   process by which Network Functions (NFs) locate and select other NFs
+   that provide required services.  This process is mediated by the
+   Network Repository Function (NRF, SCF ...), which stores and exposes
+   NF profiles containing service names, versions, and operational
+   states.
+
+   The emergence of AI functions including autonomous agents, inference
+   services, and retrieval-augmented generation (RAG) components, intend
+   based exchanges, training ... challenges this model.  AI functions
+   behave as both clients and servers within this ecosystem (but in 5G,
+   almost every NF both exposes and consumes services too).  These
+   entities behave as application-layer servers that expose capabilities
+   such as reasoning, summarization, optimization, or prediction, and as
+   clients when they consume telemetry, policy, or contextual
+   information from the network.
+
+   Supporting discovery for the various types of AI functions requires a
+   broader analysis to identify solution-independent requirements.
 
 3.4.  Task Management
 

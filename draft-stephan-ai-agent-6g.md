@@ -160,7 +160,7 @@ Currently Service-Based Architecture (SBA) defines discovery as the process by w
 Network Functions (NFs) locate and select other NFs that provide required
 services.  This process is mediated by the Network Repository Function (NRF, SCF ...),
 which stores and exposes NF profiles containing service names, versions, and
-operational states.  
+operational states.
 
 The emergence of AI functions including autonomous agents, inference
 services, and retrieval-augmented generation (RAG) components, intend based exchanges, training ... challenges this

@@ -156,6 +156,21 @@ To allow the communication between users and agents as well as between agents an
 
 Robust and efficient AI agent and tool discovery mechanisms to dynamically identify and locate AI agents/tools across different platforms and organizations. It should be possible to combine multiple discovery mechanisms depending on specific requirements and constraints of the application domain, e.g. broadcasting/multicasting-based mechanisms for intra-domain discovery and use of centralized directories for cross-domain discovery.
 
+Currently Service-Based Architecture (SBA) defines discovery as the process by which
+Network Functions (NFs) locate and select other NFs that provide required
+services.  This process is mediated by the Network Repository Function (NRF, SCF ...),
+which stores and exposes NF profiles containing service names, versions, and
+operational states.
+
+The emergence of AI functions including autonomous agents, inference
+services, and retrieval-augmented generation (RAG) components, intend based exchanges, training ... challenges this
+model. AI functions behave as both clients and servers within this ecosystem (but in 5G, almost every NF both exposes and consumes services too). These entities behave as application-layer servers that expose
+capabilities such as reasoning, summarization, optimization, or prediction, and
+as clients when they consume telemetry, policy, or contextual information
+from the network.
+
+Supporting discovery for the various types of AI functions requires a broader analysis to identify solution-independent requirements.
+
 ## Task Management
 
 AI agent communication should provide a robust and efficient task management to enable seamless coordination and collaboration among agents. Task management includes task decomposition (complex tasks broken down into smaller sub-tasks that can be executed by individual agents or groups of agents), task assignment (based on agent capabilities, availability, workload), task scheduling, task coordination among agents and task monitoring/tracking.

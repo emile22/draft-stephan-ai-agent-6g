@@ -91,7 +91,7 @@ AI is not a novel concept within 3GPP, which has been actively engaged in standa
 
 Beyond traditional AI/ML capabilities, 3GPP is exploring the integration of AI agents in 6G systems. According to 3GPP TR 22.870 [TR22.870], an AI agent is defined as follows:
 
-AI Agent: 
+AI Agent:
 
 an automated intelligent entity that achieves a specific goal (autonomously or not) on behalf of another entity, by e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (independently or in collaboration with other AI Agents).
 

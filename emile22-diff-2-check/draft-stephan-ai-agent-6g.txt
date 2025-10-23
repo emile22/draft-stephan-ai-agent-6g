@@ -319,14 +319,15 @@ Table of Contents
       to complete complex tasks requested by a user and/or between
       multiple user AI agent groups, owned by different users, across
       diverse locations ranging from local wireless networks to the wide
-      area networks.
+      area networks.  See clause 6.7 of 3GPP TR 22.870 [TR22.870].
 
    *  Intelligent Communication Assistants: Operators can advantageously
       provide Intelligent Communication Assistant services to their
       subscribers.  Intelligent Communication Assistant could understand
       user intention by collecting multi-modal data of the user and
       execute the user instructions by invoking other AI assistants and
-      services provided by the 3rd party service provider.
+      services provided by the 3rd party service provider.  See clause
+      6.11 of 3GPP TR 22.870 [TR22.870].
 
 3.  Potential agent communications related requirements
 
@@ -376,19 +377,18 @@ Table of Contents
    Currently Service-Based Architecture (SBA) defines discovery as the
    process by which Network Functions (NFs) locate and select other NFs
    that provide required services.  This process is mediated by the
-   Network Repository Function (NRF, SCF ...), which stores and exposes
-   NF profiles containing service names, versions, and operational
-   states.
+   Network Repository Function (NRF), which stores and exposes NF
+   profiles containing service names, versions, and operational states.
 
    The emergence of AI functions including autonomous agents, inference
    services, and retrieval-augmented generation (RAG) components, intend
-   based exchanges, training ... challenges this model.  AI functions
-   behave as both clients and servers within this ecosystem (but in 5G,
-   almost every NF both exposes and consumes services too).  These
-   entities behave as application-layer servers that expose capabilities
-   such as reasoning, summarization, optimization, or prediction, and as
-   clients when they consume telemetry, policy, or contextual
-   information from the network.
+   based exchanges, training challenges this model.  AI functions behave
+   as both clients and servers within this ecosystem (but in 5G, almost
+   every NF both exposes and consumes services too).  These entities
+   behave as application-layer servers that expose capabilities such as
+   reasoning, summarization, optimization, or prediction, and as clients
+   when they consume telemetry, policy, or contextual information from
+   the network.
 
    Supporting discovery for the various types of AI functions requires a
    broader analysis to identify solution-independent requirements.
@@ -533,9 +533,9 @@ Table of Contents
 
    AI agent communication is expected to play a crucial role in enabling
    advanced network functionalities.  The use cases outlined in 3GPP TR
-   22.870 demonstrate the potential of AI agent communication to enhance
-   the existing capabilities of 5G networks, providing more efficient,
-   reliable, and secure communication services.
+   22.870 [TR22.870] demonstrate the potential of AI agent communication
+   to enhance the existing capabilities of 5G networks, providing more
+   efficient, reliable, and secure communication services.
 
    In summary, the integration of AI in 6G systems represents a
    significant advancement in telecommunications technology.  The
@@ -559,7 +559,7 @@ Table of Contents
    3GPP in the 6G context.  And it is also expected that this work will
    be completed in a timely manner to cope with the challenging workplan
    defined by 3GPP for the development of a 6G system in the ITU-R IMT
-   2030 framework .
+   2030 framework [M.2160].
 
 5.  Security Considerations
 

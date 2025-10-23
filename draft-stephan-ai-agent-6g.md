@@ -85,17 +85,19 @@ A study on service requirements and use cases for 6G is documented in the 3GPP T
 
 ## General
 
-The recommendation ITU-R Recommendation M.2160-0  provides a comprehensive framework for the development of 6G technologies, focusing on the capabilities and objectives that these technologies should achieve around 2030 and beyond. In this document, the integration of AI in telecommunications is poised to be a cornerstone for the development of 6G systems. AI is considered as a foundational element, supporting both the network infrastructure and devices in delivering 3GPP services, often referred to as "AI for 6G system". Additionally, mobile network capabilities are aimed to be enhanced and optimized for supporting AI applications, termed "6G system for AI".
+The recommendation ITU-R Recommendation M.2160-0 [M.2160] provides a comprehensive framework for the development of 6G technologies, focusing on the capabilities and objectives that these technologies should achieve around 2030 and beyond. In this document, the integration of AI in telecommunications is poised to be a cornerstone for the development of 6G systems. AI is considered as a foundational element, supporting both the network infrastructure and devices in delivering 3GPP services, often referred to as "AI for 6G system". Additionally, mobile network capabilities are aimed to be enhanced and optimized for supporting AI applications, termed "6G system for AI".
 
 AI is not a novel concept within 3GPP, which has been actively engaged in standardizing AI and machine learning (ML) capabilities within 5G systems. These efforts span various domains, including management and orchestration, core networks, and next-generation radio access networks (NG-RAN). The objective is to boost system performance, efficiency, and the overall end-user experience. This ongoing work is crucial not only for current 5G advancements but also sets a solid foundation for future 6G technologies.
 
-Beyond traditional AI/ML capabilities, 3GPP is exploring the integration of AI agents in 6G systems. According to 3GPP TR 22.870 , an AI agent is defined as follows:
+Beyond traditional AI/ML capabilities, 3GPP is exploring the integration of AI agents in 6G systems. According to 3GPP TR 22.870 [TR22.870], an AI agent is defined as follows:
 
-AI Agent: an automated intelligent entity capable of e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (autonomously or in collaboration with other AI Agents) to achieve a specific goal.
+AI Agent: 
+
+an automated intelligent entity that achieves a specific goal (autonomously or not) on behalf of another entity, by e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (independently or in collaboration with other AI Agents).
 
 AI agents are anticipated to enhance network efficiency by dynamically optimizing resources, predicting network conditions, and ensuring seamless communication between services. By incorporating large language models (LLMs), AI agents could interpret complex requests, convert them into actionable insights, and orchestrate advanced 3GPP services such as immersive communication, sensing, and computing services. It is also expected that these agents would be able to communicate, coordinate, and cooperate with other agents to tackle tasks that a single agent would struggle with.
 
-In this context, communication between AI agents is expected to be pivotal in the 6G system, by enabling advanced network functionalities to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services. The 3GPP TR 22.870  outlines various use cases and potential service requirements for AI agent communication protocols within the 6G framework. Some of these use cases are provided in the following sections. They are only provided for information and are subject to change till the completion of the study.
+In this context, communication between AI agents is expected to be pivotal in the 6G system, by enabling advanced network functionalities to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services. The 3GPP TR 22.870 [TR22.870] outlines various use cases and potential service requirements for AI agent communication protocols within the 6G framework. Some of these use cases are provided in the following sections. They are only provided for information and are subject to change till the completion of the study.
 
 ## Network Optimization and Management
 

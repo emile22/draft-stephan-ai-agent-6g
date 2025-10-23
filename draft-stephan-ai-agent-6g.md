@@ -131,8 +131,8 @@ In this context, communication between AI agents is expected to be pivotal in th
 
 ## AI Agent Collaboration
 
-- AI agent communication groups: Groups of User AI agents (AI assistant, drone, intelligent vehicle, home robot, etc.) could be dynamically created to allow the communication between AI agents to complete complex tasks requested by a user and/or between multiple user AI agent groups, owned by different users, across diverse locations ranging from local wireless networks to the wide area networks.
-- Intelligent Communication Assistants: Operators can advantageously provide Intelligent Communication Assistant services to their subscribers. Intelligent Communication Assistant could understand user intention by collecting multi-modal data of the user and execute the user instructions by invoking other AI assistants and services provided by the 3rd party service provider.
+- AI agent communication groups: Groups of User AI agents (AI assistant, drone, intelligent vehicle, home robot, etc.) could be dynamically created to allow the communication between AI agents to complete complex tasks requested by a user and/or between multiple user AI agent groups, owned by different users, across diverse locations ranging from local wireless networks to the wide area networks. See clause 6.7 of 3GPP TR 22.870 [TR22.870].
+- Intelligent Communication Assistants: Operators can advantageously provide Intelligent Communication Assistant services to their subscribers. Intelligent Communication Assistant could understand user intention by collecting multi-modal data of the user and execute the user instructions by invoking other AI assistants and services provided by the 3rd party service provider. See clause 6.11 of 3GPP TR 22.870 [TR22.870].
 
 # Potential agent communications related requirements
 
@@ -160,12 +160,12 @@ Robust and efficient AI agent and tool discovery mechanisms to dynamically ident
 
 Currently Service-Based Architecture (SBA) defines discovery as the process by which
 Network Functions (NFs) locate and select other NFs that provide required
-services.  This process is mediated by the Network Repository Function (NRF, SCF ...),
+services.  This process is mediated by the Network Repository Function (NRF),
 which stores and exposes NF profiles containing service names, versions, and
 operational states.
 
 The emergence of AI functions including autonomous agents, inference
-services, and retrieval-augmented generation (RAG) components, intend based exchanges, training ... challenges this
+services, and retrieval-augmented generation (RAG) components, intend based exchanges, training challenges this
 model. AI functions behave as both clients and servers within this ecosystem (but in 5G, almost every NF both exposes and consumes services too). These entities behave as application-layer servers that expose
 capabilities such as reasoning, summarization, optimization, or prediction, and
 as clients when they consume telemetry, policy, or contextual information
@@ -257,11 +257,11 @@ Agent communication should support efficient power management strategies to exte
 
 AI agents are envisioned to enhance network efficiency by dynamically optimizing resources, predicting network conditions, and facilitating seamless communication between services. The incorporation of large language models (LLMs) will enable AI agents to understand complex requests and orchestrate advanced services, further enhancing the capabilities of 6G networks.
 
-AI agent communication is expected to play a crucial role in enabling advanced network functionalities. The use cases outlined in 3GPP TR 22.870  demonstrate the potential of AI agent communication to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services.
+AI agent communication is expected to play a crucial role in enabling advanced network functionalities. The use cases outlined in 3GPP TR 22.870 [TR22.870] demonstrate the potential of AI agent communication to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services.
 
 In summary, the integration of AI in 6G systems represents a significant advancement in telecommunications technology. The ongoing work by 3GPP in standardizing AI capabilities and exploring the potential of AI agents highlights the transformative impact that AI is expected to have on future network infrastructures and services.
 
-If a multi-AI agent-based system is formally adopted by 3GPP in the scope of 6G, standard solutions will be required to support secure and reliable communication between agents and between agents and external tools. These solutions will be used inside the 3GPP system but also with 3rd-party platforms. It is then required to have solutions developed by standard organizations that would be widely adopted by the AI development community. It is foreseen that IETF could be the right place to develop and maintain such standard protocols. If such standardization work is eventually endorsed by IETF, a close coordination between IETF and 3GPP will be essential to ensure that any AI agent communication protocols specified by IETF will support specific functional and service requirements defined by 3GPP in the 6G context. And it is also expected that this work will be completed in a timely manner to cope with the challenging workplan defined by 3GPP for the development of a 6G system in the ITU-R IMT 2030 framework .
+If a multi-AI agent-based system is formally adopted by 3GPP in the scope of 6G, standard solutions will be required to support secure and reliable communication between agents and between agents and external tools. These solutions will be used inside the 3GPP system but also with 3rd-party platforms. It is then required to have solutions developed by standard organizations that would be widely adopted by the AI development community. It is foreseen that IETF could be the right place to develop and maintain such standard protocols. If such standardization work is eventually endorsed by IETF, a close coordination between IETF and 3GPP will be essential to ensure that any AI agent communication protocols specified by IETF will support specific functional and service requirements defined by 3GPP in the 6G context. And it is also expected that this work will be completed in a timely manner to cope with the challenging workplan defined by 3GPP for the development of a 6G system in the ITU-R IMT 2030 framework [M.2160].
 
 # Security Considerations
 

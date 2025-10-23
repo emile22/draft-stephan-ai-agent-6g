@@ -5,14 +5,14 @@
 none                                                          E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                 R. Schott
-Expires: 25 April 2026                                  Deutsche Telekom
+Expires: 26 April 2026                                  Deutsche Telekom
                                                                 D. Lopez
                                                               Telefonica
                                                                  X. Duan
                                                             China Mobile
                                                                L. Morand
                                                                   Huawei
-                                                         22 October 2025
+                                                         23 October 2025
 
 
                    AI Agent protocols for 6G systems
@@ -62,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 April 2026.
+   This Internet-Draft will expire on 26 April 2026.
 
 Copyright Notice
 
@@ -175,7 +175,7 @@ Table of Contents
 
 2.1.  General
 
-   The recommendation ITU-R Recommendation M.2160-0 provides a
+   The recommendation ITU-R Recommendation M.2160-0 [M.2160] provides a
    comprehensive framework for the development of 6G technologies,
    focusing on the capabilities and objectives that these technologies
    should achieve around 2030 and beyond.  In this document, the
@@ -198,12 +198,15 @@ Table of Contents
 
    Beyond traditional AI/ML capabilities, 3GPP is exploring the
    integration of AI agents in 6G systems.  According to 3GPP TR 22.870
-   , an AI agent is defined as follows:
+   [TR22.870], an AI agent is defined as follows:
 
-   AI Agent: an automated intelligent entity capable of e.g interacting
+   AI Agent:
+
+   an automated intelligent entity that achieves a specific goal
+   (autonomously or not) on behalf of another entity, by e.g interacting
    with its environment, acquiring contextual information, reasoning,
-   self-learning, decision-making, executing tasks (autonomously or in
-   collaboration with other AI Agents) to achieve a specific goal.
+   self-learning, decision-making, executing tasks (independently or in
+   collaboration with other AI Agents).
 
    AI agents are anticipated to enhance network efficiency by
    dynamically optimizing resources, predicting network conditions, and
@@ -219,24 +222,28 @@ Table of Contents
    pivotal in the 6G system, by enabling advanced network
    functionalities to enhance the existing capabilities of 5G networks,
    providing more efficient, reliable, and secure communication
-   services.  The 3GPP TR 22.870 outlines various use cases and
-   potential service requirements for AI agent communication protocols
-   within the 6G framework.  Some of these use cases are provided in the
-   following sections.  They are only provided for information and are
-   subject to change till the completion of the study.
+   services.  The 3GPP TR 22.870 [TR22.870] outlines various use cases
+   and potential service requirements for AI agent communication
+   protocols within the 6G framework.  Some of these use cases are
+   provided in the following sections.  They are only provided for
+   information and are subject to change till the completion of the
+   study.
 
 2.2.  Network Optimization and Management
 
-   *  AI-Driven Network Slicing: AI agents in the 6G system should be
-      able to communicate with 3rd-party AI agent to dynamically manage
-      and optimize network slices, ensuring efficient resource
-      allocation and improved performance for different services and
-      applications.
+   *  AI-Driven Network Performance Assurance: AI agents in the 6G
+      system should be collaborate to ensure an efficient network
+      configuration and resource allocation to provide on-demand 3GPP
+      services at a given time and location area based on the authorized
+      third party request by intent, e.g. such as for major sporting
+      events or concerts in mega venues, etc.  See clause 6.43 of 3GPP
+      TR 22.870 [TR22.870].
 
    *  Predictive Maintenance: AI agents deployed in the 6G systems
       should be able to share information to predict potential network
       failures and perform preventive maintenance, reducing downtime and
-      enhancing network reliability.
+      enhancing network reliability.  See clause 11.13 of 3GPP TR 22.870
+      [TR22.870].
 
 2.3.  Immersive Communications
 

@@ -93,11 +93,13 @@ Beyond traditional AI/ML capabilities, 3GPP is exploring the integration of AI a
 
 AI Agent:
 
-an automated intelligent entity that achieves a specific goal (autonomously or not) on behalf of another entity, by e.g interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (independently or in collaboration with other AI Agents).
+an automated intelligent entity that achieves a specific goal (autonomously or not) on behalf of another entity, by e.g. interacting with its environment, acquiring contextual information, reasoning, self-learning, decision-making, executing tasks (independently or in collaboration with other AI Agents).
 
 AI agents are anticipated to enhance network efficiency by dynamically optimizing resources, predicting network conditions, and ensuring seamless communication between services. By incorporating large language models (LLMs), AI agents could interpret complex requests, convert them into actionable insights, and orchestrate advanced 3GPP services such as immersive communication, sensing, and computing services. It is also expected that these agents would be able to communicate, coordinate, and cooperate with other agents to tackle tasks that a single agent would struggle with.
 
-In this context, communication between AI agents is expected to be pivotal in the 6G system, by enabling advanced network functionalities to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services. The 3GPP TR 22.870 [TR22.870] outlines various use cases and potential service requirements for AI agent communication protocols within the 6G framework. Some of these use cases are provided in the following sections. They are only provided for information and are subject to change till the completion of the study.
+In this context, communication between AI agents is expected to be pivotal in the 6G system, by enabling advanced network functionalities to enhance the existing capabilities of 5G networks, providing more efficient, reliable, and secure communication services.
+
+The 3GPP TR 22.870 [TR22.870] outlines various use cases and potential service requirements for AI agent communication protocols within the 6G framework. Some of these use cases are provided in the following sections. They are only provided for information and are subject to change till the completion of the study.
 
 ## Network Optimization and Management
 
@@ -112,7 +114,7 @@ In this context, communication between AI agents is expected to be pivotal in th
 ## Hyper-Reliable Low-Latency Communications
 
 - Real-Time Decision Making: AI agents should be able to facilitate real-time decision-making processes in critical applications such as autonomous driving, industrial automation, and remote surgery, where ultra-low latency and high reliability are crucial. See clause 6.3 of 3GPP TR 22.870 [TR22.870].
-- Fault Detection and Recovery: AI agents should be able to quickly detect and recover from faults, maintaining the high reliability required for mission-critical applications. See clause 6.54 of 3GPP TR 22.870 [TR22.870].
+- Fault Detection and Recovery: AI agents should be able to quickly detect and recover from faults, maintaining the high reliability required for critical applications. See clause 6.53 of 3GPP TR 22.870 [TR22.870].
 
 ## Massive IoT Device Communications
 
@@ -121,7 +123,7 @@ In this context, communication between AI agents is expected to be pivotal in th
 
 ## Security and Privacy
 
-- Anomaly Detection: AI agents should be able to exchange information about anomalous behavior detection and potential security threats in real-time, enhancing the overall security of the network. See clause 6.41 of 3GPP TR 22.870 [TR22.870]
+- Anomaly Detection: AI agents should be able to exchange information about anomalous behavior detection and potential security threats in real-time, enhancing the overall security of the network. See clause 6.41 of 3GPP TR 22.870 [TR22.870].
 - Privacy Preservation: AI agents should be able to implement and share privacy-preserving techniques to protect user data, maintain sensitive data within individual networks, and ensure compliance with regulatory requirements.
 
 ## Autonomous Systems
@@ -165,7 +167,7 @@ which stores and exposes NF profiles containing service names, versions, and
 operational states.
 
 The emergence of AI functions including autonomous agents, inference
-services, and retrieval-augmented generation (RAG) components, intend based exchanges, training challenges this
+services, and retrieval-augmented generation (RAG) components, intend based exchanges, or training challenges this
 model. AI functions behave as both clients and servers within this ecosystem (but in 5G, almost every NF both exposes and consumes services too). These entities behave as application-layer servers that expose
 capabilities such as reasoning, summarization, optimization, or prediction, and
 as clients when they consume telemetry, policy, or contextual information

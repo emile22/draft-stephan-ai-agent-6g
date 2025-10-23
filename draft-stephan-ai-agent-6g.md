@@ -116,18 +116,18 @@ In this context, communication between AI agents is expected to be pivotal in th
 
 ## Massive IoT Device Communications
 
-- Device Management: AI agents distributed in the network (terminal, edge, core, etc.) should be able to collaborate to manage a large number of IoT devices, optimizing their connectivity and power consumption to extend battery life and improve network efficiency.
-- Data Analytics: AI agents should be able to collaborate to share and analyze data from IoT devices to provide insights and support decision-making processes in various applications, such as smart cities, agriculture, and healthcare.
+- Device Management: AI agents distributed in the network (terminal, edge, core, etc.) should be able to collaborate to manage a large number of IoT devices, optimizing their connectivity and power consumption to extend battery life and improve network efficiency. See clause 6.45 of 3GPP TR 22.870 [TR22.870].
+- Data Analytics: AI agents should be able to collaborate to share and analyze data from IoT devices to provide insights and support decision-making processes in various applications, such as smart cities, agriculture, and healthcare. See clause 6.45 of 3GPP TR 22.870 [TR22.870].
 
 ## Security and Privacy
 
-- Anomaly Detection: AI agents should be able to exchange information about anomalous behavior detection and potential security threats in real-time, enhancing the overall security of the network.
+- Anomaly Detection: AI agents should be able to exchange information about anomalous behavior detection and potential security threats in real-time, enhancing the overall security of the network. See clause 6.41 of 3GPP TR 22.870 [TR22.870]
 - Privacy Preservation: AI agents should be able to implement and share privacy-preserving techniques to protect user data, maintain sensitive data within individual networks, and ensure compliance with regulatory requirements.
 
 ## Autonomous Systems
 
-- Autonomous Vehicles: Embedded AI agents should be able to communicate inside the same vehicle, between vehicles, between vehicles and the network for decision making based on environment perception, trajectory planning, and complex real-time control.
-- Industrial Automation: AI agents should be able to communicate to optimize and control industrial processes, improving efficiency and reducing operational costs.
+- Autonomous Vehicles: Embedded AI agents should be able to communicate inside the same vehicle, between vehicles, between vehicles and the network for decision making based on environment perception, trajectory planning, and complex real-time control. See clause 6.3 of 3GPP TR 22.870 [TR22.870].
+- Industrial Automation: AI agents should be able to communicate to optimize and control industrial processes, improving efficiency and reducing operational costs. See clause 6.53 of 3GPP TR 22.870 [TR22.870].
 
 ## AI Agent Collaboration
 

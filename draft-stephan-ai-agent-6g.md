@@ -106,13 +106,13 @@ In this context, communication between AI agents is expected to be pivotal in th
 
 ## Immersive Communications
 
-- Traffic Management: AI agents should be able to communicate with other agents and tools to analyze and predict traffic patterns, optimizing bandwidth allocation and ensuring high-quality service for users, especially in densely populated areas.
-- Quality of Experience (QoE) Optimization: AI agents should be able to collaborate to monitor and adjust network parameters in real-time, enhancing the user experience for high-bandwidth applications like video streaming and virtual reality.
+- Traffic Management: AI agents should be able to communicate with other agents and tools to analyze and predict traffic patterns, optimizing bandwidth allocation and ensuring high-quality service for users, especially in densely populated areas. See clause 6.52	of 3GPP TR 22.870 [TR22.870].
+- Quality of Experience (QoE) Optimization: AI agents should be able to collaborate to monitor and adjust network parameters in real-time, enhancing the user experience for high-bandwidth applications like video streaming and virtual reality. See clause 6.54	of 3GPP TR 22.870 [TR22.870].
 
 ## Hyper-Reliable Low-Latency Communications
 
-- Real-Time Decision Making: AI agents should be able to facilitate real-time decision-making processes in critical applications such as autonomous driving, industrial automation, and remote surgery, where ultra-low latency and high reliability are crucial.
-- Fault Detection and Recovery: AI agents should be able to quickly detect and recover from faults, maintaining the high reliability required for mission-critical applications.
+- Real-Time Decision Making: AI agents should be able to facilitate real-time decision-making processes in critical applications such as autonomous driving, industrial automation, and remote surgery, where ultra-low latency and high reliability are crucial. See clause 6.3 of 3GPP TR 22.870 [TR22.870].
+- Fault Detection and Recovery: AI agents should be able to quickly detect and recover from faults, maintaining the high reliability required for mission-critical applications. See clause 6.54 of 3GPP TR 22.870 [TR22.870].
 
 ## Massive IoT Device Communications
 

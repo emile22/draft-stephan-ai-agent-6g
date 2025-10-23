@@ -5,14 +5,14 @@
 none                                                          E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                 R. Schott
-Expires: 23 April 2026                                  Deutsche Telekom
+Expires: 26 April 2026                                  Deutsche Telekom
                                                                 D. Lopez
                                                               Telefonica
                                                                  X. Duan
                                                             China Mobile
                                                                L. Morand
                                                                   Huawei
-                                                         20 October 2025
+                                                         23 October 2025
 
 
                    AI Agent protocols for 6G systems
@@ -62,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 April 2026.
+   This Internet-Draft will expire on 26 April 2026.
 
 Copyright Notice
 
@@ -153,7 +153,7 @@ Table of Contents
    already undertaken a deep exploratory work on the use cases, service
    requirements and system architecture for 6G.  This study phase will
    be then followed by a normative work to be completed by 2030 to meet
-   ITU-R IMT 2030 timeline .
+   ITU-R IMT 2030 timeline [M.2160].
 
    6G aims to support societal advancements and to bring value to
    society in the 2030s and beyond in secure, resilient, environmentally
@@ -163,19 +163,19 @@ Table of Contents
    and interworking with 5G aspects.
 
    A study on service requirements and use cases for 6G is documented in
-   the 3GPP Technical Report (TR) 22.870 . While at an early stage and
-   the document being still a work in progress, the current content of
-   the report already provides useful insights on the potential
-   foundation pillars of the new 6G system.  One of them being the
-   Artificial Intelligence (AI) and how 6G could leverage AI and machine
-   learning to enhance mobile network capabilities, service offering and
-   user experience.
+   the 3GPP Technical Report (TR) 22.870 [TR22.870].  While at an early
+   stage and the document being still a work in progress, the current
+   content of the report already provides useful insights on the
+   potential foundation pillars of the new 6G system.  One of them being
+   the Artificial Intelligence (AI) and how 6G could leverage AI and
+   machine learning to enhance mobile network capabilities, service
+   offering and user experience.
 
 2.  AI Agent related use cases in the context of 6G
 
 2.1.  General
 
-   The recommendation ITU-R Recommendation M.2160-0 provides a
+   The recommendation ITU-R Recommendation M.2160-0 [M.2160] provides a
    comprehensive framework for the development of 6G technologies,
    focusing on the capabilities and objectives that these technologies
    should achieve around 2030 and beyond.  In this document, the
@@ -198,12 +198,15 @@ Table of Contents
 
    Beyond traditional AI/ML capabilities, 3GPP is exploring the
    integration of AI agents in 6G systems.  According to 3GPP TR 22.870
-   , an AI agent is defined as follows:
+   [TR22.870], an AI agent is defined as follows:
 
-   AI Agent: an automated intelligent entity capable of e.g interacting
+   AI Agent:
+
+   an automated intelligent entity that achieves a specific goal
+   (autonomously or not) on behalf of another entity, by e.g interacting
    with its environment, acquiring contextual information, reasoning,
-   self-learning, decision-making, executing tasks (autonomously or in
-   collaboration with other AI Agents) to achieve a specific goal.
+   self-learning, decision-making, executing tasks (independently or in
+   collaboration with other AI Agents).
 
    AI agents are anticipated to enhance network efficiency by
    dynamically optimizing resources, predicting network conditions, and
@@ -219,47 +222,55 @@ Table of Contents
    pivotal in the 6G system, by enabling advanced network
    functionalities to enhance the existing capabilities of 5G networks,
    providing more efficient, reliable, and secure communication
-   services.  The 3GPP TR 22.870 outlines various use cases and
-   potential service requirements for AI agent communication protocols
-   within the 6G framework.  Some of these use cases are provided in the
-   following sections.  They are only provided for information and are
-   subject to change till the completion of the study.
+   services.  The 3GPP TR 22.870 [TR22.870] outlines various use cases
+   and potential service requirements for AI agent communication
+   protocols within the 6G framework.  Some of these use cases are
+   provided in the following sections.  They are only provided for
+   information and are subject to change till the completion of the
+   study.
 
 2.2.  Network Optimization and Management
 
-   *  AI-Driven Network Slicing: AI agents in the 6G system should be
-      able to communicate with 3rd-party AI agent to dynamically manage
-      and optimize network slices, ensuring efficient resource
-      allocation and improved performance for different services and
-      applications.
+   *  AI-Driven Network Performance Assurance: AI agents in the 6G
+      system should be collaborate to ensure an efficient network
+      configuration and resource allocation to provide on-demand 3GPP
+      services at a given time and location area based on the authorized
+      third party request by intent, e.g. such as for major sporting
+      events or concerts in mega venues, etc.  See clause 6.43 of 3GPP
+      TR 22.870 [TR22.870].
 
    *  Predictive Maintenance: AI agents deployed in the 6G systems
       should be able to share information to predict potential network
       failures and perform preventive maintenance, reducing downtime and
-      enhancing network reliability.
+      enhancing network reliability.  See clause 11.13 of 3GPP TR 22.870
+      [TR22.870].
 
 2.3.  Immersive Communications
 
    *  Traffic Management: AI agents should be able to communicate with
       other agents and tools to analyze and predict traffic patterns,
       optimizing bandwidth allocation and ensuring high-quality service
-      for users, especially in densely populated areas.
+      for users, especially in densely populated areas.  See clause 6.52
+      of 3GPP TR 22.870 [TR22.870].
 
    *  Quality of Experience (QoE) Optimization: AI agents should be able
       to collaborate to monitor and adjust network parameters in real-
       time, enhancing the user experience for high-bandwidth
-      applications like video streaming and virtual reality.
+      applications like video streaming and virtual reality.  See clause
+      6.54 of 3GPP TR 22.870 [TR22.870].
 
 2.4.  Hyper-Reliable Low-Latency Communications
 
    *  Real-Time Decision Making: AI agents should be able to facilitate
       real-time decision-making processes in critical applications such
       as autonomous driving, industrial automation, and remote surgery,
-      where ultra-low latency and high reliability are crucial.
+      where ultra-low latency and high reliability are crucial.  See
+      clause 6.3 of 3GPP TR 22.870 [TR22.870].
 
    *  Fault Detection and Recovery: AI agents should be able to quickly
       detect and recover from faults, maintaining the high reliability
-      required for mission-critical applications.
+      required for mission-critical applications.  See clause 6.54 of
+      3GPP TR 22.870 [TR22.870].
 
 2.5.  Massive IoT Device Communications
 
@@ -267,18 +278,20 @@ Table of Contents
       edge, core, etc.) should be able to collaborate to manage a large
       number of IoT devices, optimizing their connectivity and power
       consumption to extend battery life and improve network efficiency.
+      See clause 6.45 of 3GPP TR 22.870 [TR22.870].
 
    *  Data Analytics: AI agents should be able to collaborate to share
       and analyze data from IoT devices to provide insights and support
       decision-making processes in various applications, such as smart
-      cities, agriculture, and healthcare.
+      cities, agriculture, and healthcare.  See clause 6.45 of 3GPP TR
+      22.870 [TR22.870].
 
 2.6.  Security and Privacy
 
    *  Anomaly Detection: AI agents should be able to exchange
       information about anomalous behavior detection and potential
       security threats in real-time, enhancing the overall security of
-      the network.
+      the network.  See clause 6.41 of 3GPP TR 22.870 [TR22.870]
 
    *  Privacy Preservation: AI agents should be able to implement and
       share privacy-preserving techniques to protect user data, maintain
@@ -291,10 +304,12 @@ Table of Contents
       communicate inside the same vehicle, between vehicles, between
       vehicles and the network for decision making based on environment
       perception, trajectory planning, and complex real-time control.
+      See clause 6.3 of 3GPP TR 22.870 [TR22.870].
 
    *  Industrial Automation: AI agents should be able to communicate to
       optimize and control industrial processes, improving efficiency
-      and reducing operational costs.
+      and reducing operational costs.  See clause 6.53 of 3GPP TR 22.870
+      [TR22.870].
 
 2.8.  AI Agent Collaboration
 
@@ -304,14 +319,15 @@ Table of Contents
       to complete complex tasks requested by a user and/or between
       multiple user AI agent groups, owned by different users, across
       diverse locations ranging from local wireless networks to the wide
-      area networks.
+      area networks.  See clause 6.7 of 3GPP TR 22.870 [TR22.870].
 
    *  Intelligent Communication Assistants: Operators can advantageously
       provide Intelligent Communication Assistant services to their
       subscribers.  Intelligent Communication Assistant could understand
       user intention by collecting multi-modal data of the user and
       execute the user instructions by invoking other AI assistants and
-      services provided by the 3rd party service provider.
+      services provided by the 3rd party service provider.  See clause
+      6.11 of 3GPP TR 22.870 [TR22.870].
 
 3.  Potential agent communications related requirements
 
@@ -361,19 +377,18 @@ Table of Contents
    Currently Service-Based Architecture (SBA) defines discovery as the
    process by which Network Functions (NFs) locate and select other NFs
    that provide required services.  This process is mediated by the
-   Network Repository Function (NRF, SCF ...), which stores and exposes
-   NF profiles containing service names, versions, and operational
-   states.
+   Network Repository Function (NRF), which stores and exposes NF
+   profiles containing service names, versions, and operational states.
 
    The emergence of AI functions including autonomous agents, inference
    services, and retrieval-augmented generation (RAG) components, intend
-   based exchanges, training ... challenges this model.  AI functions
-   behave as both clients and servers within this ecosystem (but in 5G,
-   almost every NF both exposes and consumes services too).  These
-   entities behave as application-layer servers that expose capabilities
-   such as reasoning, summarization, optimization, or prediction, and as
-   clients when they consume telemetry, policy, or contextual
-   information from the network.
+   based exchanges, training challenges this model.  AI functions behave
+   as both clients and servers within this ecosystem (but in 5G, almost
+   every NF both exposes and consumes services too).  These entities
+   behave as application-layer servers that expose capabilities such as
+   reasoning, summarization, optimization, or prediction, and as clients
+   when they consume telemetry, policy, or contextual information from
+   the network.
 
    Supporting discovery for the various types of AI functions requires a
    broader analysis to identify solution-independent requirements.
@@ -518,9 +533,9 @@ Table of Contents
 
    AI agent communication is expected to play a crucial role in enabling
    advanced network functionalities.  The use cases outlined in 3GPP TR
-   22.870 demonstrate the potential of AI agent communication to enhance
-   the existing capabilities of 5G networks, providing more efficient,
-   reliable, and secure communication services.
+   22.870 [TR22.870] demonstrate the potential of AI agent communication
+   to enhance the existing capabilities of 5G networks, providing more
+   efficient, reliable, and secure communication services.
 
    In summary, the integration of AI in 6G systems represents a
    significant advancement in telecommunications technology.  The
@@ -544,7 +559,7 @@ Table of Contents
    3GPP in the 6G context.  And it is also expected that this work will
    be completed in a timely manner to cope with the challenging workplan
    defined by 3GPP for the development of a 6G system in the ITU-R IMT
-   2030 framework .
+   2030 framework [M.2160].
 
 5.  Security Considerations
 
@@ -562,16 +577,16 @@ Table of Contents
 
 8.2.  Informative References
 
-   [TR22.870] 3GPP TR 22.870: Study on 6G Use Cases and Service
-   Requirements; Stage 1 (Release 20).  https://www.3gpp.org/ftp/Specs/
+   [TR22.870] 3GPP, "TR 22.870: Study on 6G Use Cases and Service
+   Requirements; Stage 1 (Release 20)", https://www.3gpp.org/ftp/Specs/
    archive/22_series/22.870 (https://www.3gpp.org/ftp/Specs/
-   archive/22_series/22.870)
+   archive/22_series/22.870).
 
-   [M.2160] Recommendation ITU-R M.2160-0: Framework and overall
-   objectives of the future development of IMT for 2030 and beyond.
+   [M.2160] ITU-R, "Recommendation ITU-R M.2160-0: Framework and overall
+   objectives of the future development of IMT for 2030 and beyond",
    https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-
    I!!PDF-E.pdf (https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-
-   M.2160-0-202311-I!!PDF-E.pdf)
+   M.2160-0-202311-I!!PDF-E.pdf).
 
 Authors' Addresses
 

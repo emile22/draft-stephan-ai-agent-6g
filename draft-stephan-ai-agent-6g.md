@@ -101,8 +101,8 @@ In this context, communication between AI agents is expected to be pivotal in th
 
 ## Network Optimization and Management
 
-- AI-Driven Network Slicing: AI agents in the 6G system should be able to communicate with 3rd-party AI agent to dynamically manage and optimize network slices, ensuring efficient resource allocation and improved performance for different services and applications.
-- Predictive Maintenance: AI agents deployed in the 6G systems should be able to share information to predict potential network failures and perform preventive maintenance, reducing downtime and enhancing network reliability.
+- AI-Driven Network Performance Assurance: AI agents in the 6G system should be collaborate to ensure an efficient network configuration and resource allocation to provide on-demand 3GPP services at a given time and location area based on the authorized third party request by intent, e.g. such as for major sporting events or concerts in mega venues, etc. See clause 6.43 of 3GPP TR 22.870 [TR22.870].
+- Predictive Maintenance: AI agents deployed in the 6G systems should be able to share information to predict potential network failures and perform preventive maintenance, reducing downtime and enhancing network reliability. See clause 11.13 of 3GPP TR 22.870	[TR22.870].
 
 ## Immersive Communications
 
